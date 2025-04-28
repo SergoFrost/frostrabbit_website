@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <meta name="description" content="Frostrabbit mobile applications - App details">
+    <meta name="keywords" content="mobile apps, app tracker, savings tracker, habit tracker, expense management, Frostrabbit">
+    <meta property="og:title" content="App Details - Frostrabbit Company">
+    <meta property="og:description" content="Frostrabbit mobile applications - Explore our range of productivity and finance apps">
+    <meta property="og:image" content="assets/logo_512x512.png">
+    <meta name="twitter:card" content="summary_large_image">
+    <title>App Details - Frostrabbit Company</title>
+    <link rel="icon" href="assets/logo_512x512.png">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="canonical" href="https://frostrabbit.com/detail.html">
+</head>
+<body data-theme="dark">
+    <div class="theme-toggle">
+        <input type="checkbox" id="theme-switch" class="theme-switch" checked>
+        <label for="theme-switch" class="theme-switch-label">
+            <i class="fas fa-sun"></i>
+            <i class="fas fa-moon"></i>
+            <span class="slider"></span>
+        </label>
+    </div>
+
+    <header>
+        <div class="container">
+            <div class="logo">
+                <a href="index.html">
+                    <img src="assets/logo_512x512.png" alt="Frostrabbit Logo">
+                    <span>Frostrabbit</span>
+                </a>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="terms.html">Terms of Use</a></li>
+                    <li><a href="privacy-policy.html">Privacy Policy</a></li>
+                </ul>
+            </nav>
+            <div class="menu-toggle">
+                <i class="fas fa-bars"></i>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <section class="app-detail">
+            <div class="container" style="padding-top: 20px;">
+                <a href="index.html" class="back-link">
+                    <i class="fas fa-arrow-left"></i> Back to Apps
+                </a>
+                
+                <div class="app-detail-container">
+                    <div class="app-detail-info">
+                        <div class="app-header">
+                            <div id="app-logo" class="app-logo"></div>
+                            <h1 id="app-title">Loading App Details...</h1>
+                        </div>
+                        <p id="app-description">Please wait while we load the app information.</p>
+                        <div class="app-links" id="app-links">
+                            <!-- Links will be inserted via JavaScript -->
+                        </div>
+                    </div>
+                    
+                    <div class="app-detail-images">
+                        <!-- Swiper -->
+                        <div class="swiper mySwiper">
+                            <div class="swiper-wrapper" id="app-screenshots">
+                                <!-- Images will be inserted via JavaScript -->
+                            </div>
+                            <div class="swiper-pagination"></div>
+                            <div class="swiper-button-next"></div>
+                            <div class="swiper-button-prev"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <img src="assets/logo_512x512.png" alt="Frostrabbit Logo">
+                    <h3>Frostrabbit</h3>
+                </div>
+                <div class="footer-links">
+                    <a href="terms.html">Terms of Use</a>
+                    <a href="privacy-policy.html">Privacy Policy</a>
+                </div>
+                <div class="footer-contact">
+                    <a href="mailto:frostrabbitcompany@gmail.com">
+                        <i class="fas fa-envelope"></i> frostrabbitcompany@gmail.com
+                    </a>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 Frostrabbit LLC. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Modal for image preview -->
+    <div class="modal" id="imageModal">
+        <span class="modal-close">&times;</span>
+        <div class="modal-content">
+            <img id="modalImage" src="" alt="Full screen image">
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+    <script src="js/main.js"></script>
+    <script src="js/detail.js"></script>
+</body>
+</html> 

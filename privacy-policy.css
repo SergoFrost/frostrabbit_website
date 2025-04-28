@@ -20,3 +20,47 @@
   background-image: none;
   padding: 0;
 }
+
+.privacy-content {
+    padding: 40px 0 80px;
+}
+
+.privacy-content .container {
+    background-color: var(--card-bg);
+    padding: 40px;
+    border-radius: 12px;
+    box-shadow: var(--card-shadow);
+    max-width: 1000px;
+}
+
+.privacy-content h2,
+.privacy-content .u-text-1 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+    color: var(--text-color);
+    text-align: center;
+}
+
+.privacy-content p,
+.privacy-content .u-text-2 {
+    line-height: 1.8;
+    color: var(--text-color);
+    font-size: 1rem;
+}
+
+.privacy-content a {
+    color: var(--primary-color);
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.privacy-content a:hover {
+    text-decoration: underline;
+}
+
+/* Add some spacing between sections */
+.privacy-content p br + br {
+    display: block;
+    content: "";
+    margin-top: 10px;
+}
